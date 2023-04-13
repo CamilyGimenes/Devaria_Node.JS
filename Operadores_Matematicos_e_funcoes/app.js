@@ -8,7 +8,7 @@ const validarNumeroInformado = (numero) =>{
     if(!resultado){
         console.log('Numero informado invalido')
     }else{
-        return numero;
+        return parseFloat(numero);
     }
 }
 
